@@ -1,105 +1,115 @@
 import pulp as pl
 import json
 import os
+import time
+import matplotlib.pyplot as plt
 
-def solve_instance(data, file_out, instance_name):
-    """
-    Resuelve el problema de asignación de doctores para cubrir la demanda de pacientes
-    en distintas actividades, días y turnos, y escribe resultados en file_out.
-    """
+def resolver_problema(instancia, output_file):
+    tiempo_inicio = time.time()
 
-    # Extraemos la información principal
-    dias = data["dias"]                     # Lista de días
-    turnos = data["turnos"]                 # Lista de turnos
-    categorias = data["categorias"]         # Lista de categorías
-    actividades = data["actividades"]       # Lista de actividades
+    # Cargar datos desde la instancia
+    dias = instancia["dias"]
+    turnos = instancia["turnos"]
+    categorias = instancia["categorias"]
+    actividades = instancia["actividades"]
+    demanda = instancia["demanda"]
+    tiempo_atencion = instancia["tiempo_atencion"]
+    min_personal = instancia["min_personal"]
+    duracion_turno = instancia["duracion_turno"]
 
-    demanda = data["demanda"]               # Diccionario anidado: demanda[dia][turno][categoria]
-    tiempo_atencion = data["tiempo_atencion"]  # tiempo_atencion[categoria]
-    min_personal = data["min_personal"]        # min_personal[actividad]
-    duracion_turno = data["duracion_turno"]    # Ej: 720 minutos
+    # Crear el modelo de optimización
+    model = pl.LpProblem("Asignacion_Medicos", pl.LpMinimize)
 
-    # Creamos el modelo
-    model = pl.LpProblem("Minimizar_Doctores", pl.LpMinimize)
+    # Variables de decisión
+    x = { 
+        (actividad, dia, turno): pl.LpVariable(
+            f"x_{actividad}_{dia}_{turno}", lowBound=0, cat=pl.LpInteger
+        ) 
+        for actividad in actividades for dia in dias for turno in turnos
+    }
 
-    # Variables de decisión: y[a, d, t] = número de doctores para la actividad 'a'
-    # en el día 'd' y el turno 't'
-    y = {}
-    for a in actividades:
-        for d in dias:
-            for t in turnos:
-                var_name = f"y_{a}_{d}_{t}"
-                y[(a, d, t)] = pl.LpVariable(var_name, lowBound=0, cat=pl.LpInteger)
-
-    # Función objetivo: Minimizar la suma total de doctores
-    model += pl.lpSum(y[(a, d, t)] for a in actividades for d in dias for t in turnos), "Min_Doctores_Totales"
+    # Función objetivo: Minimizar el número total de médicos
+    model += pl.lpSum(x[actividad, dia, turno] for actividad in actividades for dia in dias for turno in turnos)
 
     # Restricciones
+    # 1. Satisfacer la demanda de pacientes
+    for dia in dias:
+        for turno in turnos:
+            for categoria in categorias:
+                tiempo_requerido = tiempo_atencion[categoria]
+                total_pacientes = sum(demanda[dia][str(turno)][categoria] for dia in dias)
+                model += pl.lpSum(x[actividad, dia, turno] * duracion_turno 
+                                  for actividad in actividades) >= total_pacientes * tiempo_requerido
 
-    # 1) Cobertura de la demanda: y[a,d,t] * duracion_turno >= sum(demanda * tiempo_atencion)
-    for a in actividades:
-        for d in dias:
-            for t in turnos:
-                workload = sum(
-                    demanda[d][str(t)][c] * tiempo_atencion[c]
-                    for c in categorias
-                )
-                model += (
-                    y[(a, d, t)] * duracion_turno >= workload,
-                    f"Cobertura_{a}_{d}_{t}"
-                )
-
-    # 2) Mínimo de personal por actividad
-    for a in actividades:
-        for d in dias:
-            for t in turnos:
-                model += (
-                    y[(a, d, t)] >= min_personal[a],
-                    f"Min_Personal_{a}_{d}_{t}"
-                )
+    # 2. Respetar el mínimo de médicos por actividad y turno
+    for actividad in actividades:
+        for dia in dias:
+            for turno in turnos:
+                model += x[actividad, dia, turno] >= min_personal[actividad]
 
     # Resolver el problema
-    solver = pl.PULP_CBC_CMD(msg=0)
+    solver = pl.CPLEX_CMD(msg=False) if pl.CPLEX().available() else pl.PULP_CBC_CMD(msg=False)
     status = model.solve(solver)
 
-    with open(file_out, "a", encoding="utf-8") as f:
-        f.write(f"\n=== Instancia: {instance_name} ===\n")
-        f.write(f"Estado de la solución: {pl.LpStatus[model.status]}\n")
-        if pl.LpStatus[model.status] == "Optimal":
-            valor_objetivo = pl.value(model.objective)
-            f.write(f"Valor óptimo (Total de doctores): {valor_objetivo:.2f}\n\n")
-            for a in actividades:
-                for d in dias:
-                    for t in turnos:
-                        f.write(
-                            f"  {a} - {d} - Turno {t}: "
-                            f"{pl.value(y[(a, d, t)])} doctores\n"
-                        )
+    tiempo_total = time.time() - tiempo_inicio
+    valor_z = pl.value(model.objective) if model.status == pl.LpStatusOptimal else None
+
+    # Guardar resultados
+    with open(output_file, "a", encoding='utf-8') as f:
+        f.write(f"\nInstancia: Días={len(dias)}, Turnos={len(turnos)}, Categorías={len(categorias)}\n")
+        f.write(f"Estado: {pl.LpStatus[model.status]}\n")
+        f.write(f"Tiempo de ejecución: {tiempo_total:.2f} segundos\n")
+
+        if model.status == pl.LpStatusOptimal:
+            f.write(f"Función objetivo (Z): {valor_z:.2f}\n")
+            f.write("Asignación de médicos:\n")
+            for actividad in actividades:
+                for dia in dias:
+                    for turno in turnos:
+                        num_medicos = pl.value(x[actividad, dia, turno])
+                        if num_medicos > 0:
+                            f.write(f"  Actividad={actividad}, Día={dia}, Turno={turno}: {int(num_medicos)} médicos\n")
         else:
-            f.write("  No se encontró solución óptima o el problema es infactible.\n")
+            f.write("  No se encontró solución óptima.\n")
 
-def main():
-    carpeta_instancias = "instancias_json"
-    archivo_resultados = "resultados.txt"
+    return tiempo_total, valor_z
 
-    # Borramos archivo de resultados si existe, para iniciar "limpio"
-    if os.path.exists(archivo_resultados):
-        os.remove(archivo_resultados)
+def procesar_instancias(json_folder, output_file):
+    if os.path.exists(output_file):
+        os.remove(output_file)
 
-    # Iteramos sobre todos los archivos .json de la carpeta
-    for filename in sorted(os.listdir(carpeta_instancias)):
+    tiempos = []
+    valores_z = []
+
+    for filename in sorted(os.listdir(json_folder)):
         if filename.endswith(".json"):
-            ruta = os.path.join(carpeta_instancias, filename)
             try:
-                with open(ruta, "r", encoding="utf-8") as f:
-                    data = json.load(f)
-                print(f"Resolviendo instancia: {filename}")
-                solve_instance(data, archivo_resultados, instance_name=filename)
+                with open(os.path.join(json_folder, filename), "r") as f:
+                    instancia = json.load(f)
+                print(f"Procesando {filename}...")
+                tiempo, valor_z = resolver_problema(instancia, output_file)
+                tiempos.append(tiempo)
+                valores_z.append(valor_z if valor_z is not None else 0)
             except Exception as e:
-                print(f"Error en instancia {filename}: {str(e)}")
-                with open(archivo_resultados, "a", encoding="utf-8") as f:
-                    f.write(f"\n=== Instancia: {filename} ===\n")
-                    f.write(f"Error al procesar la instancia: {str(e)}\n")
+                print(f"Error en {filename}: {str(e)}")
+                tiempos.append(0)
+                valores_z.append(0)
 
-if __name__ == "__main__":
-    main()
+    # Crear gráfico de resultados
+    plt.figure(figsize=(10, 6))
+    plt.plot(range(len(tiempos)), tiempos, label='Tiempo de ejecución')
+    plt.plot(range(len(valores_z)), valores_z, label='Valor de la función objetivo (Z)')
+    plt.xlabel('Instancia')
+    plt.ylabel('Valor')
+    plt.legend()
+    plt.grid()
+    plt.savefig('resultados.png')
+    print("Gráfico generado: 'resultados.png'")
+
+# Configuración y ejecución
+json_folder = "instancias_json"
+output_file = "resumen_resultados.txt"
+
+if not os.path.exists(json_folder):
+    os.makedirs(json_folder)
+procesar_instancias(json_folder, output_file)

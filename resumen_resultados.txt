@@ -1,0 +1,240 @@
+
+Instancia: Días=3, Turnos=2, Categorías=4
+Estado: Optimal
+Tiempo de ejecución: 0.26 segundos
+Función objetivo (Z): 30.00
+Asignación de médicos:
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=2: 1 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+
+Instancia: Días=3, Turnos=2, Categorías=4
+Estado: Optimal
+Tiempo de ejecución: 0.08 segundos
+Función objetivo (Z): 30.00
+Asignación de médicos:
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=2: 1 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+
+Instancia: Días=3, Turnos=2, Categorías=4
+Estado: Optimal
+Tiempo de ejecución: 0.08 segundos
+Función objetivo (Z): 30.00
+Asignación de médicos:
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=2: 1 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+
+Instancia: Días=3, Turnos=2, Categorías=4
+Estado: Optimal
+Tiempo de ejecución: 0.08 segundos
+Función objetivo (Z): 30.00
+Asignación de médicos:
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=2: 1 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+
+Instancia: Días=3, Turnos=2, Categorías=4
+Estado: Optimal
+Tiempo de ejecución: 0.08 segundos
+Función objetivo (Z): 30.00
+Asignación de médicos:
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=2: 1 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+
+Instancia: Días=3, Turnos=2, Categorías=4
+Estado: Optimal
+Tiempo de ejecución: 0.08 segundos
+Función objetivo (Z): 30.00
+Asignación de médicos:
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=2: 1 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+
+Instancia: Días=3, Turnos=2, Categorías=4
+Estado: Optimal
+Tiempo de ejecución: 0.08 segundos
+Función objetivo (Z): 30.00
+Asignación de médicos:
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=2: 1 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+
+Instancia: Días=3, Turnos=2, Categorías=4
+Estado: Optimal
+Tiempo de ejecución: 0.08 segundos
+Función objetivo (Z): 30.00
+Asignación de médicos:
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=2: 1 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+
+Instancia: Días=3, Turnos=2, Categorías=4
+Estado: Optimal
+Tiempo de ejecución: 0.07 segundos
+Función objetivo (Z): 30.00
+Asignación de médicos:
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=2: 1 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+
+Instancia: Días=3, Turnos=2, Categorías=4
+Estado: Optimal
+Tiempo de ejecución: 0.08 segundos
+Función objetivo (Z): 30.00
+Asignación de médicos:
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=2: 1 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
