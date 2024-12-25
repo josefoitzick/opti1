@@ -1,13 +1,14 @@
 {
-    "dias": ["Miércoles", "Jueves"],
-    "turnos": [1, 2],
+    "dias": ["Viernes", "Sábado", "Domingo"],
+    "turnos": [1, 2, 3],
     "categorias": ["C1", "C2", "C3", "C4"],
-    "actividades": ["Consulta", "Tratamiento"],
+    "actividades": ["Pediatría", "Traumatología", "Cirugía"],
     "demanda": {
-        "Miércoles": { "1": {"C1": 20, "C2": 30, "C3": 40, "C4": 50}, "2": {"C1": 25, "C2": 35, "C3": 45, "C4": 55} },
-        "Jueves": { "1": {"C1": 30, "C2": 40, "C3": 50, "C4": 60}, "2": {"C1": 35, "C2": 45, "C3": 55, "C4": 65} }
+        "Viernes": { "1": {"C1": 50, "C2": 60, "C3": 70, "C4": 80}, "2": {"C1": 55, "C2": 65, "C3": 75, "C4": 85}, "3": {"C1": 60, "C2": 70, "C3": 80, "C4": 90} },
+        "Sábado": { "1": {"C1": 60, "C2": 70, "C3": 80, "C4": 90}, "2": {"C1": 65, "C2": 75, "C3": 85, "C4": 95}, "3": {"C1": 70, "C2": 80, "C3": 90, "C4": 100} },
+        "Domingo": { "1": {"C1": 70, "C2": 80, "C3": 90, "C4": 100}, "2": {"C1": 75, "C2": 85, "C3": 95, "C4": 105}, "3": {"C1": 80, "C2": 90, "C3": 100, "C4": 110} }
     },
     "tiempo_atencion": {"C1": 120, "C2": 60, "C3": 20, "C4": 10},
-    "min_personal": {"Consulta": 2, "Tratamiento": 2},
+    "min_personal": {"Pediatría": 5, "Traumatología": 4, "Cirugía": 4},
     "duracion_turno": 720
 }

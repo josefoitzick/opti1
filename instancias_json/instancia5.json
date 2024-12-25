@@ -1,12 +1,12 @@
 {
-    "dias": ["Domingo"],
+    "dias": ["Miércoles"],
     "turnos": [1, 2],
     "categorias": ["C1", "C2", "C3", "C4"],
-    "actividades": ["Consulta", "Tratamiento"],
+    "actividades": ["Pediatría", "Traumatología", "Cirugía"],
     "demanda": {
-        "Domingo": { "1": {"C1": 15, "C2": 20, "C3": 25, "C4": 30}, "2": {"C1": 20, "C2": 25, "C3": 30, "C4": 35} }
+        "Miércoles": { "1": {"C1": 5, "C2": 10, "C3": 15, "C4": 20}, "2": {"C1": 7, "C2": 14, "C3": 21, "C4": 28} }
     },
     "tiempo_atencion": {"C1": 120, "C2": 60, "C3": 20, "C4": 10},
-    "min_personal": {"Consulta": 2, "Tratamiento": 2},
+    "min_personal": {"Pediatría": 1, "Traumatología": 1, "Cirugía": 1},
     "duracion_turno": 720
 }
