@@ -14,5 +14,5 @@
     },
     "tiempo_atencion": {"C1": 120, "C2": 60, "C3": 20, "C4": 10},
     "min_personal": {"Pediatría": 1, "Traumatología": 2, "Cirugía": 2},
-    "duracion_turno": 600
+    "duracion_turno": 495
 }

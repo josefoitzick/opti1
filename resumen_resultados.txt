@@ -2,7 +2,7 @@
 Instancia: instancia0.json
 Días=7, Turnos=2, Categorías=4
 Estado: Optimal
-Tiempo de ejecución: 0.25 segundos
+Tiempo de ejecución: 0.09 segundos
 Función objetivo (Z): 70.00
 Asignación de médicos:
   Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 1 médicos
@@ -51,7 +51,7 @@ Asignación de médicos:
 Instancia: instancia1.json
 Días=7, Turnos=2, Categorías=4
 Estado: Optimal
-Tiempo de ejecución: 0.11 segundos
+Tiempo de ejecución: 0.09 segundos
 Función objetivo (Z): 112.00
 Asignación de médicos:
   Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 2 médicos
@@ -100,7 +100,7 @@ Asignación de médicos:
 Instancia: instancia2.json
 Días=7, Turnos=2, Categorías=4
 Estado: Optimal
-Tiempo de ejecución: 0.13 segundos
+Tiempo de ejecución: 0.11 segundos
 Función objetivo (Z): 70.00
 Asignación de médicos:
   Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 1 médicos
@@ -149,7 +149,7 @@ Asignación de médicos:
 Instancia: instancia3.json
 Días=7, Turnos=2, Categorías=4
 Estado: Optimal
-Tiempo de ejecución: 0.13 segundos
+Tiempo de ejecución: 0.11 segundos
 Función objetivo (Z): 112.00
 Asignación de médicos:
   Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 2 médicos
@@ -198,7 +198,7 @@ Asignación de médicos:
 Instancia: instancia4.json
 Días=7, Turnos=2, Categorías=4
 Estado: Optimal
-Tiempo de ejecución: 0.15 segundos
+Tiempo de ejecución: 0.09 segundos
 Función objetivo (Z): 70.00
 Asignación de médicos:
   Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 1 médicos
@@ -247,7 +247,7 @@ Asignación de médicos:
 Instancia: instancia5.json
 Días=7, Turnos=2, Categorías=4
 Estado: Optimal
-Tiempo de ejecución: 0.10 segundos
+Tiempo de ejecución: 0.09 segundos
 Función objetivo (Z): 98.00
 Asignación de médicos:
   Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 1 médicos
@@ -296,7 +296,7 @@ Asignación de médicos:
 Instancia: instancia6.json
 Días=7, Turnos=2, Categorías=4
 Estado: Optimal
-Tiempo de ejecución: 0.10 segundos
+Tiempo de ejecución: 0.09 segundos
 Función objetivo (Z): 70.00
 Asignación de médicos:
   Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 1 médicos
@@ -394,7 +394,7 @@ Asignación de médicos:
 Instancia: instancia8.json
 Días=7, Turnos=2, Categorías=4
 Estado: Optimal
-Tiempo de ejecución: 0.09 segundos
+Tiempo de ejecución: 0.11 segundos
 Función objetivo (Z): 126.00
 Asignación de médicos:
   Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 2 médicos
@@ -443,7 +443,7 @@ Asignación de médicos:
 Instancia: instancia9.json
 Días=7, Turnos=2, Categorías=4
 Estado: Optimal
-Tiempo de ejecución: 0.09 segundos
+Tiempo de ejecución: 0.11 segundos
 Función objetivo (Z): 98.00
 Asignación de médicos:
   Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 2 médicos
