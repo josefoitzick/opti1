@@ -1,0 +1,12 @@
+{
+    "dias": ["Domingo"],
+    "turnos": [1, 2],
+    "categorias": ["C1", "C2", "C3", "C4"],
+    "actividades": ["Consulta", "Tratamiento"],
+    "demanda": {
+        "Domingo": { "1": {"C1": 15, "C2": 20, "C3": 25, "C4": 30}, "2": {"C1": 20, "C2": 25, "C3": 30, "C4": 35} }
+    },
+    "tiempo_atencion": {"C1": 120, "C2": 60, "C3": 20, "C4": 10},
+    "min_personal": {"Consulta": 2, "Tratamiento": 2},
+    "duracion_turno": 720
+}

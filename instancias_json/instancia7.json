@@ -1,0 +1,12 @@
+{
+    "dias": ["Miércoles"],
+    "turnos": [1, 2],
+    "categorias": ["C1", "C2", "C3", "C4"],
+    "actividades": ["Consulta"],
+    "demanda": {
+        "Miércoles": { "1": {"C1": 10, "C2": 15, "C3": 20, "C4": 25}, "2": {"C1": 12, "C2": 18, "C3": 22, "C4": 28} }
+    },
+    "tiempo_atencion": {"C1": 120, "C2": 60, "C3": 20, "C4": 10},
+    "min_personal": {"Consulta": 2},
+    "duracion_turno": 720
+}

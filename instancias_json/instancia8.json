@@ -1,0 +1,13 @@
+{
+    "dias": ["Jueves", "Viernes"],
+    "turnos": [1, 2],
+    "categorias": ["C1", "C2", "C3", "C4"],
+    "actividades": ["Consulta", "Tratamiento"],
+    "demanda": {
+        "Jueves": { "1": {"C1": 40, "C2": 50, "C3": 60, "C4": 70}, "2": {"C1": 45, "C2": 55, "C3": 65, "C4": 75} },
+        "Viernes": { "1": {"C1": 50, "C2": 60, "C3": 70, "C4": 80}, "2": {"C1": 55, "C2": 65, "C3": 75, "C4": 85} }
+    },
+    "tiempo_atencion": {"C1": 120, "C2": 60, "C3": 20, "C4": 10},
+    "min_personal": {"Consulta": 3, "Tratamiento": 2},
+    "duracion_turno": 720
+}

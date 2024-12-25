@@ -1,0 +1,206 @@
+
+Instancia: {'dias': ['Lunes', 'Martes'], 'turnos': [1, 2], 'categorias': ['C1', 'C2', 'C3', 'C4'], 'actividades': ['Consulta', 'ExÃ¡menes'], 'demanda': {'Lunes': {'1': {'C1': 5, 'C2': 10, 'C3': 15, 'C4': 20}, '2': {'C1': 2, 'C2': 5, 'C3': 10, 'C4': 12}}, 'Martes': {'1': {'C1': 6, 'C2': 12, 'C3': 18, 'C4': 22}, '2': {'C1': 3, 'C2': 6, 'C3': 9, 'C4': 10}}}, 'tiempo_atencion': {'C1': 120, 'C2': 60, 'C3': 20, 'C4': 10}, 'min_personal': {'Consulta': 1, 'ExÃ¡menes': 1}, 'duracion_turno': 720}
+Estado: Optimal
+Tiempo de ejecución: 0.04 segundos
+Función objetivo (Z): 8.00
+Asignación de médicos:
+Lunes, Turno 1, Consulta: 1.0 médicos
+Lunes, Turno 1, ExÃ¡menes: 1.0 médicos
+Lunes, Turno 2, Consulta: 1.0 médicos
+Lunes, Turno 2, ExÃ¡menes: 1.0 médicos
+Martes, Turno 1, Consulta: 1.0 médicos
+Martes, Turno 1, ExÃ¡menes: 1.0 médicos
+Martes, Turno 2, Consulta: 1.0 médicos
+Martes, Turno 2, ExÃ¡menes: 1.0 médicos
+
+Instancia: {'dias': ['Lunes', 'Martes', 'MiÃ©rcoles', 'Jueves', 'Viernes', 'SÃ¡bado', 'Domingo'], 'turnos': [1, 2, 3], 'categorias': ['C1', 'C2', 'C3', 'C4'], 'actividades': ['Consulta', 'ExÃ¡menes', 'Tratamiento'], 'demanda': {'Lunes': {'1': {'C1': 100, 'C2': 150, 'C3': 200, 'C4': 250}, '2': {'C1': 120, 'C2': 180, 'C3': 240, 'C4': 300}, '3': {'C1': 140, 'C2': 210, 'C3': 280, 'C4': 350}}, 'Martes': {'1': {'C1': 110, 'C2': 160, 'C3': 210, 'C4': 260}, '2': {'C1': 130, 'C2': 190, 'C3': 250, 'C4': 310}, '3': {'C1': 150, 'C2': 220, 'C3': 290, 'C4': 360}}, 'MiÃ©rcoles': {'1': {'C1': 120, 'C2': 170, 'C3': 220, 'C4': 270}, '2': {'C1': 140, 'C2': 200, 'C3': 260, 'C4': 320}, '3': {'C1': 160, 'C2': 230, 'C3': 300, 'C4': 370}}, 'Jueves': {'1': {'C1': 130, 'C2': 180, 'C3': 230, 'C4': 280}, '2': {'C1': 150, 'C2': 210, 'C3': 270, 'C4': 330}, '3': {'C1': 170, 'C2': 240, 'C3': 310, 'C4': 380}}, 'Viernes': {'1': {'C1': 140, 'C2': 190, 'C3': 240, 'C4': 290}, '2': {'C1': 160, 'C2': 220, 'C3': 280, 'C4': 340}, '3': {'C1': 180, 'C2': 250, 'C3': 320, 'C4': 390}}, 'SÃ¡bado': {'1': {'C1': 150, 'C2': 200, 'C3': 250, 'C4': 300}, '2': {'C1': 170, 'C2': 230, 'C3': 290, 'C4': 350}, '3': {'C1': 190, 'C2': 260, 'C3': 330, 'C4': 400}}, 'Domingo': {'1': {'C1': 160, 'C2': 210, 'C3': 260, 'C4': 310}, '2': {'C1': 180, 'C2': 240, 'C3': 300, 'C4': 360}, '3': {'C1': 200, 'C2': 270, 'C3': 340, 'C4': 410}}}, 'tiempo_atencion': {'C1': 120, 'C2': 60, 'C3': 20, 'C4': 10}, 'min_personal': {'Consulta': 5, 'ExÃ¡menes': 4, 'Tratamiento': 5}, 'duracion_turno': 720}
+Estado: Optimal
+Tiempo de ejecución: 0.06 segundos
+Función objetivo (Z): 532.00
+Asignación de médicos:
+Lunes, Turno 1, Consulta: 8.0 médicos
+Lunes, Turno 1, ExÃ¡menes: 4.0 médicos
+Lunes, Turno 1, Tratamiento: 5.0 médicos
+Lunes, Turno 2, Consulta: 11.0 médicos
+Lunes, Turno 2, ExÃ¡menes: 4.0 médicos
+Lunes, Turno 2, Tratamiento: 5.0 médicos
+Lunes, Turno 3, Consulta: 15.0 médicos
+Lunes, Turno 3, ExÃ¡menes: 4.0 médicos
+Lunes, Turno 3, Tratamiento: 5.0 médicos
+Martes, Turno 1, Consulta: 10.0 médicos
+Martes, Turno 1, ExÃ¡menes: 4.0 médicos
+Martes, Turno 1, Tratamiento: 5.0 médicos
+Martes, Turno 2, Consulta: 13.0 médicos
+Martes, Turno 2, ExÃ¡menes: 4.0 médicos
+Martes, Turno 2, Tratamiento: 5.0 médicos
+Martes, Turno 3, Consulta: 16.0 médicos
+Martes, Turno 3, ExÃ¡menes: 4.0 médicos
+Martes, Turno 3, Tratamiento: 5.0 médicos
+MiÃ©rcoles, Turno 1, Consulta: 11.0 médicos
+MiÃ©rcoles, Turno 1, ExÃ¡menes: 4.0 médicos
+MiÃ©rcoles, Turno 1, Tratamiento: 5.0 médicos
+MiÃ©rcoles, Turno 2, Consulta: 15.0 médicos
+MiÃ©rcoles, Turno 2, ExÃ¡menes: 4.0 médicos
+MiÃ©rcoles, Turno 2, Tratamiento: 5.0 médicos
+MiÃ©rcoles, Turno 3, Consulta: 18.0 médicos
+MiÃ©rcoles, Turno 3, ExÃ¡menes: 4.0 médicos
+MiÃ©rcoles, Turno 3, Tratamiento: 5.0 médicos
+Jueves, Turno 1, Consulta: 13.0 médicos
+Jueves, Turno 1, ExÃ¡menes: 4.0 médicos
+Jueves, Turno 1, Tratamiento: 5.0 médicos
+Jueves, Turno 2, Consulta: 16.0 médicos
+Jueves, Turno 2, ExÃ¡menes: 4.0 médicos
+Jueves, Turno 2, Tratamiento: 5.0 médicos
+Jueves, Turno 3, Consulta: 20.0 médicos
+Jueves, Turno 3, ExÃ¡menes: 4.0 médicos
+Jueves, Turno 3, Tratamiento: 5.0 médicos
+Viernes, Turno 1, Consulta: 15.0 médicos
+Viernes, Turno 1, ExÃ¡menes: 4.0 médicos
+Viernes, Turno 1, Tratamiento: 5.0 médicos
+Viernes, Turno 2, Consulta: 18.0 médicos
+Viernes, Turno 2, ExÃ¡menes: 4.0 médicos
+Viernes, Turno 2, Tratamiento: 5.0 médicos
+Viernes, Turno 3, Consulta: 21.0 médicos
+Viernes, Turno 3, ExÃ¡menes: 4.0 médicos
+Viernes, Turno 3, Tratamiento: 5.0 médicos
+SÃ¡bado, Turno 1, Consulta: 16.0 médicos
+SÃ¡bado, Turno 1, ExÃ¡menes: 4.0 médicos
+SÃ¡bado, Turno 1, Tratamiento: 5.0 médicos
+SÃ¡bado, Turno 2, Consulta: 20.0 médicos
+SÃ¡bado, Turno 2, ExÃ¡menes: 4.0 médicos
+SÃ¡bado, Turno 2, Tratamiento: 5.0 médicos
+SÃ¡bado, Turno 3, Consulta: 23.0 médicos
+SÃ¡bado, Turno 3, ExÃ¡menes: 4.0 médicos
+SÃ¡bado, Turno 3, Tratamiento: 5.0 médicos
+Domingo, Turno 1, Consulta: 18.0 médicos
+Domingo, Turno 1, ExÃ¡menes: 4.0 médicos
+Domingo, Turno 1, Tratamiento: 5.0 médicos
+Domingo, Turno 2, Consulta: 21.0 médicos
+Domingo, Turno 2, ExÃ¡menes: 4.0 médicos
+Domingo, Turno 2, Tratamiento: 5.0 médicos
+Domingo, Turno 3, Consulta: 25.0 médicos
+Domingo, Turno 3, ExÃ¡menes: 4.0 médicos
+Domingo, Turno 3, Tratamiento: 5.0 médicos
+
+Instancia: {'dias': ['MiÃ©rcoles', 'Jueves'], 'turnos': [1, 2], 'categorias': ['C1', 'C2', 'C3', 'C4'], 'actividades': ['Consulta', 'Tratamiento'], 'demanda': {'MiÃ©rcoles': {'1': {'C1': 20, 'C2': 25, 'C3': 30, 'C4': 40}, '2': {'C1': 15, 'C2': 20, 'C3': 25, 'C4': 30}}, 'Jueves': {'1': {'C1': 22, 'C2': 28, 'C3': 35, 'C4': 45}, '2': {'C1': 18, 'C2': 24, 'C3': 28, 'C4': 38}}}, 'tiempo_atencion': {'C1': 120, 'C2': 60, 'C3': 20, 'C4': 10}, 'min_personal': {'Consulta': 2, 'Tratamiento': 2}, 'duracion_turno': 720}
+Estado: Optimal
+Tiempo de ejecución: 0.04 segundos
+Función objetivo (Z): 16.00
+Asignación de médicos:
+MiÃ©rcoles, Turno 1, Consulta: 2.0 médicos
+MiÃ©rcoles, Turno 1, Tratamiento: 2.0 médicos
+MiÃ©rcoles, Turno 2, Consulta: 2.0 médicos
+MiÃ©rcoles, Turno 2, Tratamiento: 2.0 médicos
+Jueves, Turno 1, Consulta: 2.0 médicos
+Jueves, Turno 1, Tratamiento: 2.0 médicos
+Jueves, Turno 2, Consulta: 2.0 médicos
+Jueves, Turno 2, Tratamiento: 2.0 médicos
+
+Instancia: {'dias': ['MiÃ©rcoles', 'Jueves'], 'turnos': [1, 2], 'categorias': ['C1', 'C2', 'C3', 'C4'], 'actividades': ['Consulta', 'Tratamiento'], 'demanda': {'MiÃ©rcoles': {'1': {'C1': 20, 'C2': 30, 'C3': 40, 'C4': 50}, '2': {'C1': 25, 'C2': 35, 'C3': 45, 'C4': 55}}, 'Jueves': {'1': {'C1': 30, 'C2': 40, 'C3': 50, 'C4': 60}, '2': {'C1': 35, 'C2': 45, 'C3': 55, 'C4': 65}}}, 'tiempo_atencion': {'C1': 120, 'C2': 60, 'C3': 20, 'C4': 10}, 'min_personal': {'Consulta': 2, 'Tratamiento': 2}, 'duracion_turno': 720}
+Estado: Optimal
+Tiempo de ejecución: 0.04 segundos
+Función objetivo (Z): 20.00
+Asignación de médicos:
+MiÃ©rcoles, Turno 1, Consulta: 2.0 médicos
+MiÃ©rcoles, Turno 1, Tratamiento: 2.0 médicos
+MiÃ©rcoles, Turno 2, Consulta: 3.0 médicos
+MiÃ©rcoles, Turno 2, Tratamiento: 2.0 médicos
+Jueves, Turno 1, Consulta: 3.0 médicos
+Jueves, Turno 1, Tratamiento: 2.0 médicos
+Jueves, Turno 2, Consulta: 4.0 médicos
+Jueves, Turno 2, Tratamiento: 2.0 médicos
+
+Instancia: {'dias': ['Viernes', 'SÃ¡bado'], 'turnos': [1, 2], 'categorias': ['C1', 'C2', 'C3', 'C4'], 'actividades': ['Consulta', 'ExÃ¡menes', 'Tratamiento'], 'demanda': {'Viernes': {'1': {'C1': 50, 'C2': 60, 'C3': 70, 'C4': 80}, '2': {'C1': 55, 'C2': 65, 'C3': 75, 'C4': 85}}, 'SÃ¡bado': {'1': {'C1': 60, 'C2': 70, 'C3': 80, 'C4': 90}, '2': {'C1': 65, 'C2': 75, 'C3': 85, 'C4': 95}}}, 'tiempo_atencion': {'C1': 120, 'C2': 60, 'C3': 20, 'C4': 10}, 'min_personal': {'Consulta': 3, 'ExÃ¡menes': 2, 'Tratamiento': 3}, 'duracion_turno': 720}
+Estado: Optimal
+Tiempo de ejecución: 0.04 segundos
+Función objetivo (Z): 40.00
+Asignación de médicos:
+Viernes, Turno 1, Consulta: 4.0 médicos
+Viernes, Turno 1, ExÃ¡menes: 2.0 médicos
+Viernes, Turno 1, Tratamiento: 3.0 médicos
+Viernes, Turno 2, Consulta: 5.0 médicos
+Viernes, Turno 2, ExÃ¡menes: 2.0 médicos
+Viernes, Turno 2, Tratamiento: 3.0 médicos
+SÃ¡bado, Turno 1, Consulta: 5.0 médicos
+SÃ¡bado, Turno 1, ExÃ¡menes: 2.0 médicos
+SÃ¡bado, Turno 1, Tratamiento: 3.0 médicos
+SÃ¡bado, Turno 2, Consulta: 6.0 médicos
+SÃ¡bado, Turno 2, ExÃ¡menes: 2.0 médicos
+SÃ¡bado, Turno 2, Tratamiento: 3.0 médicos
+
+Instancia: {'dias': ['Domingo'], 'turnos': [1, 2], 'categorias': ['C1', 'C2', 'C3', 'C4'], 'actividades': ['Consulta', 'Tratamiento'], 'demanda': {'Domingo': {'1': {'C1': 15, 'C2': 20, 'C3': 25, 'C4': 30}, '2': {'C1': 20, 'C2': 25, 'C3': 30, 'C4': 35}}}, 'tiempo_atencion': {'C1': 120, 'C2': 60, 'C3': 20, 'C4': 10}, 'min_personal': {'Consulta': 2, 'Tratamiento': 2}, 'duracion_turno': 720}
+Estado: Optimal
+Tiempo de ejecución: 0.03 segundos
+Función objetivo (Z): 8.00
+Asignación de médicos:
+Domingo, Turno 1, Consulta: 2.0 médicos
+Domingo, Turno 1, Tratamiento: 2.0 médicos
+Domingo, Turno 2, Consulta: 2.0 médicos
+Domingo, Turno 2, Tratamiento: 2.0 médicos
+
+Instancia: {'dias': ['Lunes', 'Martes'], 'turnos': [1], 'categorias': ['C1', 'C2', 'C3', 'C4'], 'actividades': ['Consulta', 'ExÃ¡menes', 'Tratamiento'], 'demanda': {'Lunes': {'1': {'C1': 5, 'C2': 10, 'C3': 15, 'C4': 20}}, 'Martes': {'1': {'C1': 4, 'C2': 8, 'C3': 12, 'C4': 16}}}, 'tiempo_atencion': {'C1': 120, 'C2': 60, 'C3': 20, 'C4': 10}, 'min_personal': {'Consulta': 1, 'ExÃ¡menes': 1, 'Tratamiento': 1}, 'duracion_turno': 720}
+Estado: Optimal
+Tiempo de ejecución: 0.03 segundos
+Función objetivo (Z): 6.00
+Asignación de médicos:
+Lunes, Turno 1, Consulta: 1.0 médicos
+Lunes, Turno 1, ExÃ¡menes: 1.0 médicos
+Lunes, Turno 1, Tratamiento: 1.0 médicos
+Martes, Turno 1, Consulta: 1.0 médicos
+Martes, Turno 1, ExÃ¡menes: 1.0 médicos
+Martes, Turno 1, Tratamiento: 1.0 médicos
+
+Instancia: {'dias': ['MiÃ©rcoles'], 'turnos': [1, 2], 'categorias': ['C1', 'C2', 'C3', 'C4'], 'actividades': ['Consulta'], 'demanda': {'MiÃ©rcoles': {'1': {'C1': 10, 'C2': 15, 'C3': 20, 'C4': 25}, '2': {'C1': 12, 'C2': 18, 'C3': 22, 'C4': 28}}}, 'tiempo_atencion': {'C1': 120, 'C2': 60, 'C3': 20, 'C4': 10}, 'min_personal': {'Consulta': 2}, 'duracion_turno': 720}
+Estado: Optimal
+Tiempo de ejecución: 0.05 segundos
+Función objetivo (Z): 4.00
+Asignación de médicos:
+MiÃ©rcoles, Turno 1, Consulta: 2.0 médicos
+MiÃ©rcoles, Turno 2, Consulta: 2.0 médicos
+
+Instancia: {'dias': ['Jueves', 'Viernes'], 'turnos': [1, 2], 'categorias': ['C1', 'C2', 'C3', 'C4'], 'actividades': ['Consulta', 'Tratamiento'], 'demanda': {'Jueves': {'1': {'C1': 40, 'C2': 50, 'C3': 60, 'C4': 70}, '2': {'C1': 45, 'C2': 55, 'C3': 65, 'C4': 75}}, 'Viernes': {'1': {'C1': 50, 'C2': 60, 'C3': 70, 'C4': 80}, '2': {'C1': 55, 'C2': 65, 'C3': 75, 'C4': 85}}}, 'tiempo_atencion': {'C1': 120, 'C2': 60, 'C3': 20, 'C4': 10}, 'min_personal': {'Consulta': 3, 'Tratamiento': 2}, 'duracion_turno': 720}
+Estado: Optimal
+Tiempo de ejecución: 0.05 segundos
+Función objetivo (Z): 34.00
+Asignación de médicos:
+Jueves, Turno 1, Consulta: 5.0 médicos
+Jueves, Turno 1, Tratamiento: 2.0 médicos
+Jueves, Turno 2, Consulta: 6.0 médicos
+Jueves, Turno 2, Tratamiento: 2.0 médicos
+Viernes, Turno 1, Consulta: 7.0 médicos
+Viernes, Turno 1, Tratamiento: 2.0 médicos
+Viernes, Turno 2, Consulta: 8.0 médicos
+Viernes, Turno 2, Tratamiento: 2.0 médicos
+
+Instancia: {'dias': ['Lunes', 'Martes', 'MiÃ©rcoles'], 'turnos': [1, 2, 3], 'categorias': ['C1', 'C2', 'C3', 'C4'], 'actividades': ['Consulta', 'ExÃ¡menes', 'Tratamiento'], 'demanda': {'Lunes': {'1': {'C1': 30, 'C2': 40, 'C3': 50, 'C4': 60}, '2': {'C1': 35, 'C2': 45, 'C3': 55, 'C4': 65}, '3': {'C1': 40, 'C2': 50, 'C3': 60, 'C4': 70}}, 'Martes': {'1': {'C1': 25, 'C2': 35, 'C3': 45, 'C4': 55}, '2': {'C1': 30, 'C2': 40, 'C3': 50, 'C4': 60}, '3': {'C1': 35, 'C2': 45, 'C3': 55, 'C4': 65}}, 'MiÃ©rcoles': {'1': {'C1': 20, 'C2': 30, 'C3': 40, 'C4': 50}, '2': {'C1': 25, 'C2': 35, 'C3': 45, 'C4': 55}, '3': {'C1': 30, 'C2': 40, 'C3': 50, 'C4': 60}}}, 'tiempo_atencion': {'C1': 120, 'C2': 60, 'C3': 20, 'C4': 10}, 'min_personal': {'Consulta': 3, 'ExÃ¡menes': 2, 'Tratamiento': 3}, 'duracion_turno': 720}
+Estado: Optimal
+Tiempo de ejecución: 0.04 segundos
+Función objetivo (Z): 72.00
+Asignación de médicos:
+Lunes, Turno 1, Consulta: 3.0 médicos
+Lunes, Turno 1, ExÃ¡menes: 2.0 médicos
+Lunes, Turno 1, Tratamiento: 3.0 médicos
+Lunes, Turno 2, Consulta: 3.0 médicos
+Lunes, Turno 2, ExÃ¡menes: 2.0 médicos
+Lunes, Turno 2, Tratamiento: 3.0 médicos
+Lunes, Turno 3, Consulta: 3.0 médicos
+Lunes, Turno 3, ExÃ¡menes: 2.0 médicos
+Lunes, Turno 3, Tratamiento: 3.0 médicos
+Martes, Turno 1, Consulta: 3.0 médicos
+Martes, Turno 1, ExÃ¡menes: 2.0 médicos
+Martes, Turno 1, Tratamiento: 3.0 médicos
+Martes, Turno 2, Consulta: 3.0 médicos
+Martes, Turno 2, ExÃ¡menes: 2.0 médicos
+Martes, Turno 2, Tratamiento: 3.0 médicos
+Martes, Turno 3, Consulta: 3.0 médicos
+Martes, Turno 3, ExÃ¡menes: 2.0 médicos
+Martes, Turno 3, Tratamiento: 3.0 médicos
+MiÃ©rcoles, Turno 1, Consulta: 3.0 médicos
+MiÃ©rcoles, Turno 1, ExÃ¡menes: 2.0 médicos
+MiÃ©rcoles, Turno 1, Tratamiento: 3.0 médicos
+MiÃ©rcoles, Turno 2, Consulta: 3.0 médicos
+MiÃ©rcoles, Turno 2, ExÃ¡menes: 2.0 médicos
+MiÃ©rcoles, Turno 2, Tratamiento: 3.0 médicos
+MiÃ©rcoles, Turno 3, Consulta: 3.0 médicos
+MiÃ©rcoles, Turno 3, ExÃ¡menes: 2.0 médicos
+MiÃ©rcoles, Turno 3, Tratamiento: 3.0 médicos
