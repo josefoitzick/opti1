@@ -1,44 +1,9 @@
 
-Instancia: instancia1.json
-Días=3, Turnos=2, Categorías=4
+Instancia: instancia0.json
+Días=7, Turnos=2, Categorías=4
 Estado: Optimal
-Tiempo de ejecución: 0.10 segundos
-Función objetivo (Z): 30.00
-Asignación de médicos:
-  Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 1 médicos
-  Actividad=PediatrÃ­a, Día=Lunes, Turno=2: 1 médicos
-  Actividad=PediatrÃ­a, Día=Martes, Turno=1: 1 médicos
-  Actividad=PediatrÃ­a, Día=Martes, Turno=2: 1 médicos
-  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=1: 1 médicos
-  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=2: 1 médicos
-  Actividad=TraumatologÃ­a, Día=Lunes, Turno=1: 2 médicos
-  Actividad=TraumatologÃ­a, Día=Lunes, Turno=2: 2 médicos
-  Actividad=TraumatologÃ­a, Día=Martes, Turno=1: 2 médicos
-  Actividad=TraumatologÃ­a, Día=Martes, Turno=2: 2 médicos
-  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
-  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
-  Actividad=CirugÃ­a, Día=Lunes, Turno=1: 2 médicos
-  Actividad=CirugÃ­a, Día=Lunes, Turno=2: 2 médicos
-  Actividad=CirugÃ­a, Día=Martes, Turno=1: 2 médicos
-  Actividad=CirugÃ­a, Día=Martes, Turno=2: 2 médicos
-  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
-  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
-
-Instancia: instancia10.json
-Días=1, Turnos=3, Categorías=2
-Estado: Optimal
-Tiempo de ejecución: 0.13 segundos
-Función objetivo (Z): 6.00
-Asignación de médicos:
-  Actividad=CirugÃ­a, Día=SÃ¡bado, Turno=1: 2 médicos
-  Actividad=CirugÃ­a, Día=SÃ¡bado, Turno=2: 2 médicos
-  Actividad=CirugÃ­a, Día=SÃ¡bado, Turno=3: 2 médicos
-
-Instancia: instancia2.json
-Días=4, Turnos=2, Categorías=4
-Estado: Optimal
-Tiempo de ejecución: 0.12 segundos
-Función objetivo (Z): 24.00
+Tiempo de ejecución: 0.25 segundos
+Función objetivo (Z): 70.00
 Asignación de médicos:
   Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 1 médicos
   Actividad=PediatrÃ­a, Día=Lunes, Turno=2: 1 médicos
@@ -48,6 +13,12 @@ Asignación de médicos:
   Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=2: 1 médicos
   Actividad=PediatrÃ­a, Día=Jueves, Turno=1: 1 médicos
   Actividad=PediatrÃ­a, Día=Jueves, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Viernes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Viernes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=SÃ¡bado, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=SÃ¡bado, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Domingo, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Domingo, Turno=2: 1 médicos
   Actividad=TraumatologÃ­a, Día=Lunes, Turno=1: 2 médicos
   Actividad=TraumatologÃ­a, Día=Lunes, Turno=2: 2 médicos
   Actividad=TraumatologÃ­a, Día=Martes, Turno=1: 2 médicos
@@ -56,98 +27,464 @@ Asignación de médicos:
   Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
   Actividad=TraumatologÃ­a, Día=Jueves, Turno=1: 2 médicos
   Actividad=TraumatologÃ­a, Día=Jueves, Turno=2: 2 médicos
-
-Instancia: instancia3.json
-Días=2, Turnos=3, Categorías=2
-Estado: Optimal
-Tiempo de ejecución: 0.10 segundos
-Función objetivo (Z): 12.00
-Asignación de médicos:
+  Actividad=TraumatologÃ­a, Día=Viernes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Viernes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=SÃ¡bado, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=SÃ¡bado, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Domingo, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Domingo, Turno=2: 2 médicos
   Actividad=CirugÃ­a, Día=Lunes, Turno=1: 2 médicos
   Actividad=CirugÃ­a, Día=Lunes, Turno=2: 2 médicos
-  Actividad=CirugÃ­a, Día=Lunes, Turno=3: 2 médicos
   Actividad=CirugÃ­a, Día=Martes, Turno=1: 2 médicos
   Actividad=CirugÃ­a, Día=Martes, Turno=2: 2 médicos
-  Actividad=CirugÃ­a, Día=Martes, Turno=3: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Jueves, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Jueves, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Viernes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Viernes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=SÃ¡bado, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=SÃ¡bado, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Domingo, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Domingo, Turno=2: 2 médicos
+
+Instancia: instancia1.json
+Días=7, Turnos=2, Categorías=4
+Estado: Optimal
+Tiempo de ejecución: 0.11 segundos
+Función objetivo (Z): 112.00
+Asignación de médicos:
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+  Actividad=PediatrÃ­a, Día=Jueves, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=Jueves, Turno=2: 2 médicos
+  Actividad=PediatrÃ­a, Día=Viernes, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=Viernes, Turno=2: 2 médicos
+  Actividad=PediatrÃ­a, Día=SÃ¡bado, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=SÃ¡bado, Turno=2: 2 médicos
+  Actividad=PediatrÃ­a, Día=Domingo, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=Domingo, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=2: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=2: 3 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=2: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Jueves, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Jueves, Turno=2: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Viernes, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Viernes, Turno=2: 3 médicos
+  Actividad=TraumatologÃ­a, Día=SÃ¡bado, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=SÃ¡bado, Turno=2: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Domingo, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Domingo, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=Jueves, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=Jueves, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=Viernes, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=Viernes, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=SÃ¡bado, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=SÃ¡bado, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=Domingo, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=Domingo, Turno=2: 3 médicos
+
+Instancia: instancia2.json
+Días=7, Turnos=2, Categorías=4
+Estado: Optimal
+Tiempo de ejecución: 0.13 segundos
+Función objetivo (Z): 70.00
+Asignación de médicos:
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Jueves, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Jueves, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Viernes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Viernes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=SÃ¡bado, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=SÃ¡bado, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Domingo, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Domingo, Turno=2: 1 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Jueves, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Jueves, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Viernes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Viernes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=SÃ¡bado, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=SÃ¡bado, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Domingo, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Domingo, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Jueves, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Jueves, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Viernes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Viernes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=SÃ¡bado, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=SÃ¡bado, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Domingo, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Domingo, Turno=2: 2 médicos
+
+Instancia: instancia3.json
+Días=7, Turnos=2, Categorías=4
+Estado: Optimal
+Tiempo de ejecución: 0.13 segundos
+Función objetivo (Z): 112.00
+Asignación de médicos:
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+  Actividad=PediatrÃ­a, Día=Jueves, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=Jueves, Turno=2: 2 médicos
+  Actividad=PediatrÃ­a, Día=Viernes, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=Viernes, Turno=2: 2 médicos
+  Actividad=PediatrÃ­a, Día=SÃ¡bado, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=SÃ¡bado, Turno=2: 2 médicos
+  Actividad=PediatrÃ­a, Día=Domingo, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=Domingo, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=2: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=2: 3 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=2: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Jueves, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Jueves, Turno=2: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Viernes, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Viernes, Turno=2: 3 médicos
+  Actividad=TraumatologÃ­a, Día=SÃ¡bado, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=SÃ¡bado, Turno=2: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Domingo, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Domingo, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=Jueves, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=Jueves, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=Viernes, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=Viernes, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=SÃ¡bado, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=SÃ¡bado, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=Domingo, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=Domingo, Turno=2: 3 médicos
 
 Instancia: instancia4.json
-Días=2, Turnos=1, Categorías=3
+Días=7, Turnos=2, Categorías=4
 Estado: Optimal
-Tiempo de ejecución: 0.09 segundos
-Función objetivo (Z): 8.00
+Tiempo de ejecución: 0.15 segundos
+Función objetivo (Z): 70.00
 Asignación de médicos:
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=2: 1 médicos
   Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=2: 1 médicos
   Actividad=PediatrÃ­a, Día=Jueves, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Jueves, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Viernes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Viernes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=SÃ¡bado, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=SÃ¡bado, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Domingo, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Domingo, Turno=2: 1 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=2: 2 médicos
   Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
   Actividad=TraumatologÃ­a, Día=Jueves, Turno=1: 2 médicos
-  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=1: 1 médicos
-  Actividad=CirugÃ­a, Día=Jueves, Turno=1: 1 médicos
+  Actividad=TraumatologÃ­a, Día=Jueves, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Viernes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Viernes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=SÃ¡bado, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=SÃ¡bado, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Domingo, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Domingo, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Jueves, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Jueves, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Viernes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Viernes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=SÃ¡bado, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=SÃ¡bado, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Domingo, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Domingo, Turno=2: 2 médicos
 
 Instancia: instancia5.json
-Días=1, Turnos=4, Categorías=1
+Días=7, Turnos=2, Categorías=4
 Estado: Optimal
-Tiempo de ejecución: 0.09 segundos
-Función objetivo (Z): 9.00
+Tiempo de ejecución: 0.10 segundos
+Función objetivo (Z): 98.00
 Asignación de médicos:
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Jueves, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Jueves, Turno=2: 1 médicos
   Actividad=PediatrÃ­a, Día=Viernes, Turno=1: 1 médicos
-  Actividad=PediatrÃ­a, Día=Viernes, Turno=2: 2 médicos
-  Actividad=PediatrÃ­a, Día=Viernes, Turno=3: 3 médicos
-  Actividad=PediatrÃ­a, Día=Viernes, Turno=4: 3 médicos
+  Actividad=PediatrÃ­a, Día=Viernes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=SÃ¡bado, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=SÃ¡bado, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Domingo, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Domingo, Turno=2: 1 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=2: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=2: 3 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=2: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Jueves, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Jueves, Turno=2: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Viernes, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Viernes, Turno=2: 3 médicos
+  Actividad=TraumatologÃ­a, Día=SÃ¡bado, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=SÃ¡bado, Turno=2: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Domingo, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Domingo, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=Jueves, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=Jueves, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=Viernes, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=Viernes, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=SÃ¡bado, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=SÃ¡bado, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=Domingo, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=Domingo, Turno=2: 3 médicos
 
 Instancia: instancia6.json
-Días=2, Turnos=2, Categorías=3
+Días=7, Turnos=2, Categorías=4
 Estado: Optimal
-Tiempo de ejecución: 0.09 segundos
-Función objetivo (Z): 12.00
+Tiempo de ejecución: 0.10 segundos
+Función objetivo (Z): 70.00
 Asignación de médicos:
-  Actividad=TraumatologÃ­a, Día=SÃ¡bado, Turno=1: 1 médicos
-  Actividad=TraumatologÃ­a, Día=SÃ¡bado, Turno=2: 1 médicos
-  Actividad=TraumatologÃ­a, Día=Domingo, Turno=1: 1 médicos
-  Actividad=TraumatologÃ­a, Día=Domingo, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Jueves, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Jueves, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Viernes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Viernes, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=SÃ¡bado, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=SÃ¡bado, Turno=2: 1 médicos
+  Actividad=PediatrÃ­a, Día=Domingo, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=Domingo, Turno=2: 1 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Jueves, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Jueves, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Viernes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Viernes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=SÃ¡bado, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=SÃ¡bado, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Domingo, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Domingo, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Jueves, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Jueves, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Viernes, Turno=1: 2 médicos
+  Actividad=CirugÃ­a, Día=Viernes, Turno=2: 2 médicos
   Actividad=CirugÃ­a, Día=SÃ¡bado, Turno=1: 2 médicos
   Actividad=CirugÃ­a, Día=SÃ¡bado, Turno=2: 2 médicos
   Actividad=CirugÃ­a, Día=Domingo, Turno=1: 2 médicos
   Actividad=CirugÃ­a, Día=Domingo, Turno=2: 2 médicos
 
 Instancia: instancia7.json
-Días=3, Turnos=2, Categorías=2
+Días=7, Turnos=2, Categorías=4
 Estado: Optimal
 Tiempo de ejecución: 0.09 segundos
-Función objetivo (Z): 30.00
+Función objetivo (Z): 98.00
 Asignación de médicos:
   Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 2 médicos
   Actividad=PediatrÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=2: 2 médicos
   Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
   Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+  Actividad=PediatrÃ­a, Día=Jueves, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=Jueves, Turno=2: 2 médicos
   Actividad=PediatrÃ­a, Día=Viernes, Turno=1: 2 médicos
   Actividad=PediatrÃ­a, Día=Viernes, Turno=2: 2 médicos
-  Actividad=CirugÃ­a, Día=Lunes, Turno=1: 3 médicos
-  Actividad=CirugÃ­a, Día=Lunes, Turno=2: 3 médicos
-  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=1: 3 médicos
-  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=2: 3 médicos
-  Actividad=CirugÃ­a, Día=Viernes, Turno=1: 3 médicos
-  Actividad=CirugÃ­a, Día=Viernes, Turno=2: 3 médicos
-
-Instancia: instancia8.json
-Días=2, Turnos=3, Categorías=2
-Estado: Optimal
-Tiempo de ejecución: 0.09 segundos
-Función objetivo (Z): 11.00
-Asignación de médicos:
-  Actividad=TraumatologÃ­a, Día=Martes, Turno=1: 1 médicos
+  Actividad=PediatrÃ­a, Día=SÃ¡bado, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=SÃ¡bado, Turno=2: 2 médicos
+  Actividad=PediatrÃ­a, Día=Domingo, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=Domingo, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=1: 2 médicos
   Actividad=TraumatologÃ­a, Día=Martes, Turno=2: 2 médicos
-  Actividad=TraumatologÃ­a, Día=Martes, Turno=3: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
   Actividad=TraumatologÃ­a, Día=Jueves, Turno=1: 2 médicos
   Actividad=TraumatologÃ­a, Día=Jueves, Turno=2: 2 médicos
-  Actividad=TraumatologÃ­a, Día=Jueves, Turno=3: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Viernes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Viernes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=SÃ¡bado, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=SÃ¡bado, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Domingo, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Domingo, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=Jueves, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=Jueves, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=Viernes, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=Viernes, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=SÃ¡bado, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=SÃ¡bado, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=Domingo, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=Domingo, Turno=2: 3 médicos
 
-Instancia: instancia9.json
-Días=2, Turnos=1, Categorías=4
+Instancia: instancia8.json
+Días=7, Turnos=2, Categorías=4
 Estado: Optimal
 Tiempo de ejecución: 0.09 segundos
-Función objetivo (Z): 8.00
+Función objetivo (Z): 126.00
 Asignación de médicos:
   Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+  Actividad=PediatrÃ­a, Día=Jueves, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=Jueves, Turno=2: 2 médicos
   Actividad=PediatrÃ­a, Día=Viernes, Turno=1: 2 médicos
-  Actividad=CirugÃ­a, Día=Lunes, Turno=1: 2 médicos
-  Actividad=CirugÃ­a, Día=Viernes, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=Viernes, Turno=2: 2 médicos
+  Actividad=PediatrÃ­a, Día=SÃ¡bado, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=SÃ¡bado, Turno=2: 2 médicos
+  Actividad=PediatrÃ­a, Día=Domingo, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=Domingo, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=2: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=2: 3 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=2: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Jueves, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Jueves, Turno=2: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Viernes, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Viernes, Turno=2: 3 médicos
+  Actividad=TraumatologÃ­a, Día=SÃ¡bado, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=SÃ¡bado, Turno=2: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Domingo, Turno=1: 3 médicos
+  Actividad=TraumatologÃ­a, Día=Domingo, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=1: 4 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=2: 4 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=1: 4 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=2: 4 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=1: 4 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=2: 4 médicos
+  Actividad=CirugÃ­a, Día=Jueves, Turno=1: 4 médicos
+  Actividad=CirugÃ­a, Día=Jueves, Turno=2: 4 médicos
+  Actividad=CirugÃ­a, Día=Viernes, Turno=1: 4 médicos
+  Actividad=CirugÃ­a, Día=Viernes, Turno=2: 4 médicos
+  Actividad=CirugÃ­a, Día=SÃ¡bado, Turno=1: 4 médicos
+  Actividad=CirugÃ­a, Día=SÃ¡bado, Turno=2: 4 médicos
+  Actividad=CirugÃ­a, Día=Domingo, Turno=1: 4 médicos
+  Actividad=CirugÃ­a, Día=Domingo, Turno=2: 4 médicos
+
+Instancia: instancia9.json
+Días=7, Turnos=2, Categorías=4
+Estado: Optimal
+Tiempo de ejecución: 0.09 segundos
+Función objetivo (Z): 98.00
+Asignación de médicos:
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+  Actividad=PediatrÃ­a, Día=Jueves, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=Jueves, Turno=2: 2 médicos
+  Actividad=PediatrÃ­a, Día=Viernes, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=Viernes, Turno=2: 2 médicos
+  Actividad=PediatrÃ­a, Día=SÃ¡bado, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=SÃ¡bado, Turno=2: 2 médicos
+  Actividad=PediatrÃ­a, Día=Domingo, Turno=1: 2 médicos
+  Actividad=PediatrÃ­a, Día=Domingo, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Lunes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Martes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=MiÃ©rcoles, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Jueves, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Jueves, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Viernes, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Viernes, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=SÃ¡bado, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=SÃ¡bado, Turno=2: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Domingo, Turno=1: 2 médicos
+  Actividad=TraumatologÃ­a, Día=Domingo, Turno=2: 2 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=Lunes, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=Martes, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=MiÃ©rcoles, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=Jueves, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=Jueves, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=Viernes, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=Viernes, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=SÃ¡bado, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=SÃ¡bado, Turno=2: 3 médicos
+  Actividad=CirugÃ­a, Día=Domingo, Turno=1: 3 médicos
+  Actividad=CirugÃ­a, Día=Domingo, Turno=2: 3 médicos
