@@ -1,2 +1,3 @@
 # opti1
-lab1-optimizacion
+Laboratorio 1 - Metodos de Optimización - Juan Cardenas y Jose Foitzick 
+
